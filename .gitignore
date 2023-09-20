@@ -25,4 +25,4 @@ dist-ssr
 .env
 tmp/
 dist/
-dev.db
+!dev.db
