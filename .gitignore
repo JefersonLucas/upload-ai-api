@@ -23,6 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 .env
-tmp/
+!tmp/
 dist/
-dev.db
+!dev.db
