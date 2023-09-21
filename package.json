@@ -6,7 +6,7 @@
 	"scripts": {
 		"start": "node dist/server.js",
 		"dev": "tsx watch src/server.ts",
-		"vercel-build": "npx prisma migrate deploy"
+		"vercel-build": "npx prisma migrate deploy && npx prisma db seed"
 	},
 	"keywords": [],
 	"author": "",
