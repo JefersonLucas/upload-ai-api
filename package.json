@@ -6,6 +6,7 @@
 	"scripts": {
 		"start": "node dist/server.js",
 		"dev": "tsx watch src/server.ts",
+		"build": "tsup src",
 		"vercel-build": "npx prisma migrate deploy && npx prisma db seed"
 	},
 	"keywords": [],
